@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sarah.paramedicsguide">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.sarah.paramedicsguide.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".vitalAndDrugs" />
+        <activity android:name=".admin_login_page" />
+        <activity android:name=".admin_signup_page" />
+        <activity android:name=".selection_paramedic_hospital_page" />
+        <activity android:name=".hospitals_management_page" />
+        <activity android:name=".add_hospitals_page" />
+        <activity android:name=".paramedics_management_page" />
+        <activity android:name=".add_paramedic_page" />
+        <activity android:name=".forgot_password_page" />
+        <activity android:name=".by_voice" />
+        <activity android:name=".new_case" />
+        <activity android:name=".home_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sendVs" />
+        <activity android:name=".vitalByManuall" />
+        <activity android:name=".drugs_selection" />
+        <activity android:name=".paramedic_login_page" />
+        <activity android:name=".hospital_login_page" />
+        <activity android:name=".paramedic_home_page" />
+        <activity android:name=".conect_page" />
+        <activity android:name=".conect_newcase" />
+        <activity android:name=".Filtering" />
+        <activity android:name=".Search" />
+        <activity android:name=".Ways_find_hospital" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Hospital_home_page" />
+        <activity android:name=".Hospital_the_cases" />
+        <activity android:name=".Dsplay_V1" />
+        <activity android:name=".Dsplay_V2" />
+        <activity android:name=".take_photo" />
+        <activity android:name=".select_voice_language" />
+        <activity android:name=".by_voice_Arabic" />
+        <activity
+            android:name=".MapsActivity2"
+            android:label="@string/title_activity_maps2" />
+        <activity
+            android:name=".MapsActivity3"
+            android:label="@string/title_activity_maps3" />
+        <activity android:name=".Report_pg" />
+        <activity android:name=".Dsplay_V3" />
+        <activity android:name=".Dsplay_V4" />
+        <activity android:name=".Report_list_pg" />
+        <activity android:name=".activity_display_modify_delete_hospital2" />
+        <activity android:name=".activity_dispaly_modify_delete_paramedic2"></activity>
+    </application>
+
+</manifest>

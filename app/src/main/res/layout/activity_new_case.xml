@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".new_case">
+
+
+    <LinearLayout
+        android:id="@+id/pg2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/mCustomToolbar"
+            layout="@layout/toolbarwithouticon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+        <TextView
+            android:id="@+id/pg2_2_newCase_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="10dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="حالة جديدة"
+            android:textSize="24sp"
+            app:layout_constraintTop_toBottomOf="@+id/mCustomToolbar"
+            app:layout_constraintVertical_bias="0.06" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/pg2_2_r_layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/body_style"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/pg2_2_name_text"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="إسم المريض :"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/pg2_2_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="false"
+                        android:layout_marginLeft="2dp"
+                        android:layout_toLeftOf="@+id/pg2_2_name_text"
+                        android:background="@drawable/text_border"
+                        android:ems="10"
+                        android:focusable="auto"
+                        android:gravity="center"
+                        android:inputType="textPersonName"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp"
+                        android:typeface="normal" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pg2_2_r_layout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/body_style"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/pg2_2_id_text"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="رقم الهوية :"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/pg2_2_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_toLeftOf="@+id/pg2_2_id_text"
+                        android:background="@drawable/text_border"
+                        android:ems="10"
+                        android:focusable="auto"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp"
+                        android:typeface="normal" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pg2_2_r_layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/body_style"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/pg2_2_gender_text"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="1"
+                        android:text="الجنس:"
+                        android:textSize="14sp" />
+
+                    <RadioGroup
+                        android:id="@+id/pg2_2_gender_rg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginBottom="5dp"
+                        android:layout_toLeftOf="@+id/pg2_2_gender_text"
+                        android:gravity="right|center"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp">
+
+                        <RadioButton
+                            android:id="@+id/pg2_2_female"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:checked="true"
+                            android:gravity="right|fill_vertical"
+                            android:text="أنثى"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/pg2_2_male"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:text="ذكر"
+                            android:textSize="14sp" />
+
+                    </RadioGroup>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pg2_2_r_layout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/body_style"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/pg2_2_case_text"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="1"
+                        android:text="تقيم الحالة :"
+                        android:textSize="14sp" />
+
+                    <RadioGroup
+                        android:id="@+id/pg2_2_case_rg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/pg2_2_case_text"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/pg2_2_danger"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:checked="true"
+                            android:gravity="right|center_vertical"
+                            android:text=" حرجة"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/pg2_2_notdanger"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:text="غير حرجة"
+                            android:textSize="14sp" />
+
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/pg2_2_r_layout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/body_style"
+                    android:padding="5dp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="384dp">
+
+                    <TextView
+                        android:id="@+id/pg2_2_bed_text"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="نوع السرير:"
+                        android:textSize="14sp" />
+
+                    <Spinner
+                        android:id="@+id/pg2_2_bed_spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/pg2_2_bed_text"
+                        android:accessibilityHeading="false"
+                        android:alwaysDrawnWithCache="false"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:clickable="true"
+                        android:clipChildren="true"
+                        android:clipToPadding="true"
+                        android:entries="@array/arr_tybed"
+                        android:focusable="auto"
+                        android:scrollbars="vertical"
+                        android:theme="@style/Animation.AppCompat.DropDownUp"
+                        android:visibility="visible" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/pg2_2button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/button_shape_color"
+                    android:clickable="true"
+                    android:cursorVisible="true"
+                    android:focusable="auto"
+                    android:text="إضافة الحاله"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.538" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

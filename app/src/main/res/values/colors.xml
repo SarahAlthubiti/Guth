@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorUdi">#990B25</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRmady">#8dc2c2c2</color>
+    <color name="colorRmadyDark">#9a9a9a</color>
+    <color name="colorAzrq">#1E34EC</color>
+    <color name="colorPink">#6d990b25</color>
+</resources>

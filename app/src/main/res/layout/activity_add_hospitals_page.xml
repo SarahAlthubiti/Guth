@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_hospitals_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:id="@+id/pg2_r_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/mCustomToolbar"
+                layout="@layout/toolbarwithicon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="16dp" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="انشاء حساب مستشفى"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="46dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/body_style"
+                        android:orientation="horizontal"
+                        android:padding="2dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/textView15"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_weight="1"
+                                android:text="اسم المستشفى" />
+
+                            <EditText
+                                android:id="@+id/editTextName"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_margin="10dp"
+                                android:layout_toLeftOf="@+id/textView15"
+                                android:layout_weight="1"
+                                android:background="@drawable/text_border"
+                                android:ems="10"
+                                android:gravity="center"
+                                android:inputType="textPersonName"
+                                android:padding="5dp"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="542dp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/body_style"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/textView20"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:text="الرقم التعريفي" />
+
+                            <EditText
+                                android:id="@+id/editTextID"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_margin="10dp"
+                                android:layout_toLeftOf="@+id/textView20"
+                                android:layout_weight="1"
+                                android:background="@drawable/text_border"
+                                android:ems="10"
+                                android:inputType="number"
+                                android:textSize="14sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/body_style"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/textView21"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:text="البريد الالكتروني" />
+
+                            <EditText
+                                android:id="@+id/editTextEmail"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                android:layout_toLeftOf="@+id/textView21"
+                                android:layout_weight="1"
+                                android:background="@drawable/text_border"
+                                android:ems="10"
+                                android:inputType="textEmailAddress"
+                                android:textSize="14sp" />
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/body_style"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/textView22"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:text="كلمة المرور" />
+
+                            <EditText
+                                android:id="@+id/editTextPassword"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                android:layout_toLeftOf="@+id/textView22"
+                                android:layout_weight="1"
+                                android:background="@drawable/text_border"
+                                android:ems="10"
+                                android:gravity="right"
+                                android:inputType="textPassword"
+                                android:textSize="14sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/body_style"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/textView23"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:text="تأكيد كلمة المرور" />
+
+                            <EditText
+                                android:id="@+id/editTextRepeatedPassword"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                android:layout_toLeftOf="@+id/textView23"
+                                android:layout_weight="1"
+                                android:background="@drawable/text_border"
+                                android:ems="10"
+                                android:gravity="right"
+                                android:inputType="textPassword"
+                                android:textSize="14sp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/body_style"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editTextLocationX"
+                            android:layout_width="150dp"
+                            android:layout_height="25dp"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:layout_toLeftOf="@+id/editTextLocationY"
+                            android:layout_weight="1"
+                            android:background="@drawable/text_border"
+                            android:ems="10"
+                            android:gravity="right"
+                            android:hint="الموقع X"
+                            android:inputType="numberDecimal"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/editTextLocationY"
+                            android:layout_width="150dp"
+                            android:layout_height="25dp"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/text_border"
+                            android:ems="10"
+                            android:gravity="right"
+                            android:hint="الموقع Y"
+                            android:inputType="numberDecimal"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/body_style"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:gravity="right"
+                            android:text="الأقسام"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/checkboxBrainAndNerves"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            android:checked="false"
+                            android:paddingRight="15dp"
+                            android:text="مخ واعصاب"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintVertical_chainStyle="spread_inside" />
+
+                        <CheckBox
+                            android:id="@+id/checkboxAccidents"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            android:checked="false"
+                            android:paddingRight="15dp"
+                            android:text="حوادث"
+                            android:textSize="14sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <CheckBox
+                            android:id="@+id/checkboxBones"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            android:checked="false"
+                            android:paddingRight="15dp"
+                            android:text="عظام"
+                            android:textSize="14sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <CheckBox
+                            android:id="@+id/checkboxBirth"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_margin="1dp"
+                            android:checked="false"
+                            android:paddingRight="15dp"
+                            android:text="ولادة"
+                            android:textSize="14sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <CheckBox
+                            android:id="@+id/checkboxOther"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            android:checked="false"
+                            android:paddingRight="15dp"
+                            android:text="غير ذلك"
+                            android:textSize="14sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_margin="1dp"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="544dp">
+
+                    <Button
+                        android:id="@+id/button_add_hospital_admin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_color"
+                        android:text="إنشاء حساب"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

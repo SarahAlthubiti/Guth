@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paramedic_app</string>
+    <string-array name="arr_tybed">
+        <item>أطفال</item>
+        <item>بالغين</item>
+        <item>عناية مركزة</item>
+    </string-array>
+</resources>

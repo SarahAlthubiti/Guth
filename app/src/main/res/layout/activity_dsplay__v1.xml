@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dsplay_V1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/pg2_r_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#990B25">
+
+            <include
+                android:id="@+id/mCustomToolbar"
+                layout="@layout/toolbarwithicon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="16dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="العلامات الحيوية"
+            android:textSize="24sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/body_style">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:gravity="center">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/textView_time_3"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_time_2"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_time_1"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_time"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="الوقت" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/textViewn_pulse_rate_3"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textViewn_pulse_rate_2"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textViewn_pulse_rate_1"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textViewn_pulse_rate"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="معدل النبض" />
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/textView_blood_pressure_3"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_blood_pressure_2"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_blood_pressure_1"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_blood_pressure"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="ضغط الدم" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/textView_respiratory_rate_3"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_respiratory_rate_2"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_respiratory_rate_1"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_respiratory_rate"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="معدل التنفس" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/textView_glasgow_comic_scale_3"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_glasgow_comic_scale_2"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_glasgow_comic_scale_1"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_glasgow_comic_scale"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="مقياس جلاسكو للغيبوبة" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/textView_blood_sugar_3"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_blood_sugar_2"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_blood_sugar_1"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_blood_sugar"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="سكر الدم" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/oxygen_in_blood_3"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/oxygen_in_blood_2"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/oxygen_in_blood_1"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_oxygen_in_blood"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="اشباع الاوكسجين  بالدم" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/textView_temperature_3"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_temperature_2"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_temperature_1"
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/textView_temperature"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:background="@android:color/white"
+                                android:gravity="center"
+                                android:text="درجة الحرارة" />
+                        </TableRow>
+
+                    </TableLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/mCustomToolbar"
+            layout="@layout/photo_vital_medication"
+            android:layout_width="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="16dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

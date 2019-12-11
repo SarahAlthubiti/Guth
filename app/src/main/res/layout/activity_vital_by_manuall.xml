@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vitalByManuall">
+
+    <LinearLayout
+        android:id="@+id/pg4_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/pg2_r_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#990B25">
+
+            <include
+                android:id="@+id/mCustomToolbar"
+                layout="@layout/toolbarwithouticon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="16dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/pg4_addP_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:paddingBottom="5dp"
+
+            android:paddingTop="20dp"
+            android:text="العلامات الحيوية"
+
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/body_style"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/pg4_r_layout22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="-4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pg4_r_layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/pg5_name_text"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="0dp"
+                    android:text="معدل النبض"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/idpluseRate"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_toLeftOf="@+id/pg5_name_text"
+                    android:layout_toStartOf="@+id/pg5_name_text"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pg4_r_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/pg4_id_text"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:text="ضغط الدم"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/idbloodPressure"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toLeftOf="@+id/pg4_id_text"
+                    android:layout_toStartOf="@+id/pg4_id_text"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pg4_r_layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/pg_add_text4"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="0dp"
+                    android:text="معدل التنفس"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/idrespRate"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toLeftOf="@+id/pg_add_text4"
+                    android:layout_toStartOf="@+id/pg_add_text4"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pg4_r_layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/pg4_numID_text"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:text="مقياس جلاسكو للغيبوبه"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/idGCS"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="42dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toLeftOf="@+id/pg4_numID_text"
+                    android:layout_toStartOf="@+id/pg4_numID_text"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pg4_r_layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/pg4_pass_text"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:text="سكر الدم"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/idbloodGlucose"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="42dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginTop="-2dp"
+                    android:layout_toLeftOf="@+id/pg4_pass_text"
+                    android:layout_toStartOf="@+id/pg4_pass_text"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pg4_r_layout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/pg4_repass_text"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="0dp"
+                    android:text="اشباع الأكسجين بالدم"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/idBloodOxygen"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="38dp"
+                    android:layout_marginRight="38dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toLeftOf="@+id/pg4_repass_text"
+                    android:layout_toStartOf="@+id/pg4_repass_text"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pg4_r_layout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/pg4_level_text"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="-3dp"
+                    android:text="درجة الحرارة"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/idtempreture"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="44dp"
+                    android:layout_marginRight="44dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toLeftOf="@+id/pg4_level_text"
+                    android:layout_toStartOf="@+id/pg4_level_text"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number|numberDecimal"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pg4_1_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_shape_color"
+            android:fontFamily="sans-serif"
+            android:onClick="buttonSend"
+            android:text="ارسال"
+            android:textColor="#ffffffff"
+            android:textSize="20dp"
+
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.054"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

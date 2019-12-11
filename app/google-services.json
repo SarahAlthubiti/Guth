@@ -1,0 +1,555 @@
+{
+  "project_info": {
+    "project_number": "864686057222",
+    "firebase_url": "https://paramedicsguide-c04be.firebaseio.com",
+    "project_id": "paramedicsguide-c04be",
+    "storage_bucket": "paramedicsguide-c04be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:f6515d0befd4487f",
+        "android_client_info": {
+          "package_name": "com.dell.paramedicsguide5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-3fh4qki38hu4u0p53ediincbfj8deuk1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dell.paramedicsguide5",
+            "certificate_hash": "5149897f0cec086c9680086e066ed203c09d9c5f"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:30b01b2acc47fec3",
+        "android_client_info": {
+          "package_name": "com.example.mar.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-mjvbl4p2qoer41580bvuk26f06ncc3kq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mar.chatapp",
+            "certificate_hash": "875e3401ec13a68929535d35e85cafe2025d8828"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:8512fe5d2d24d8f7",
+        "android_client_info": {
+          "package_name": "com.example.mar.map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-fg19enpjnhoq05ueo14dg0h4cv5dtrka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mar.map",
+            "certificate_hash": "875e3401ec13a68929535d35e85cafe2025d8828"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:819e17e50427d9c5",
+        "android_client_info": {
+          "package_name": "com.example.mar.xxx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-jasbq7oc7tk3knflara08jbjje4vkcbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mar.xxx",
+            "certificate_hash": "875e3401ec13a68929535d35e85cafe2025d8828"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:8abd01b4455c4405",
+        "android_client_info": {
+          "package_name": "com.example.maria.map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-qss2spq6rb69ttt330vh0i9iads32av5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maria.map",
+            "certificate_hash": "9f64419420e2f6870bfa1bd43334995adc627da5"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:9f83bf99d15db9d6",
+        "android_client_info": {
+          "package_name": "com.example.sarah.paramedics_guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-gcojvs4o8kcijthsn7t08dq4e98avae4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarah.paramedics_guide",
+            "certificate_hash": "e95666ce37d11172e199c33fc4c62c8aa0c43bae"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:c383152fb00d793c",
+        "android_client_info": {
+          "package_name": "com.example.sarah.paramedicsguid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-b9nj2ild34clqna3glnue7vlnldrvpd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarah.paramedicsguid",
+            "certificate_hash": "e95666ce37d11172e199c33fc4c62c8aa0c43bae"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:4ced2caf4ab155e7",
+        "android_client_info": {
+          "package_name": "com.example.sarah.paramedicsguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-dbgkob364i62k85mipojgbl7ss34ekp9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarah.paramedicsguide",
+            "certificate_hash": "9f64419420e2f6870bfa1bd43334995adc627da5"
+          }
+        },
+        {
+          "client_id": "864686057222-kd21p567rf31ba299rmrflndeme9sv0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarah.paramedicsguide",
+            "certificate_hash": "5149897f0cec086c9680086e066ed203c09d9c5f"
+          }
+        },
+        {
+          "client_id": "864686057222-8vmol0th23op7oiaohcuotjimj159ute.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarah.paramedicsguide",
+            "certificate_hash": "e95666ce37d11172e199c33fc4c62c8aa0c43bae"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:dbc2dd8c09a94e38",
+        "android_client_info": {
+          "package_name": "com.example.star.cam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-e8r4n7bvi06v7rur4mkarui6mpluuto4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.star.cam",
+            "certificate_hash": "4aa47b3ad977e420aa0648a5200fe143ceda9af3"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:90ebb715dff28bdb",
+        "android_client_info": {
+          "package_name": "com.example.star.paramedicapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-j597k59bvrsjoadfc4sij808h4bt6tn1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.star.paramedicapplication",
+            "certificate_hash": "4aa47b3ad977e420aa0648a5200fe143ceda9af3"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:a7022b2e4d6132c5",
+        "android_client_info": {
+          "package_name": "com.example.star.seniorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-vdmpiofps1b8l2mlftpi3ntpvrshpk8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.star.seniorapp",
+            "certificate_hash": "4aa47b3ad977e420aa0648a5200fe143ceda9af3"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864686057222:android:3afade2d903358ee",
+        "android_client_info": {
+          "package_name": "com.example.star.seniorapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864686057222-gurkaif36db50crotlfn0ulhs8civpp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.star.seniorapp2",
+            "certificate_hash": "4aa47b3ad977e420aa0648a5200fe143ceda9af3"
+          }
+        },
+        {
+          "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-9Krtmf0ylUQHXhBl1MbF53B8TwKnHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864686057222-feed5sav96gekuqjg5amkp57q6vask6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
